@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    background: black;
+}
+
+#header {
+    background: black;
+}
+
+#uiUx {
+    background: black;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 3px red;
+    padding: 5px;
+    position: fixed;
+    width: 90%;
+    top: 50px;
+}
+
+.menu a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.num a {
+    text-decoration: none;
+    color: white;
+    border: 3px solid #FFFFFF;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.uxDesk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uiUx {
+    display: flex;
+    justify-content: center;
+    padding: 250px 0;
+    background: url("/img/baia.svg") no-repeat;
+    margin: 0 100px;
+
+}
+
+.img1 {
+    top: 400px;
+    position: absolute;
+    left: 0;
+
+}
+
+.img2 {
+    top: 250px;
+    position: absolute;
+    right: 0;
+}
+
+.uxTitle {
+    font-size: 144px;
+    line-height: 173px;
+
+    color: #FFFFFF;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.Uxline {
+    height: 1px;
+    width: 400px;
+    background: #FF0000;
+
+}
+
+.uiTitle {
+    font-weight: 700;
+    font-size: 33px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+
+.uxBtn {
+    background: #FFFFFF;
+    border-radius: 27px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 15px;
+    border: none;
+}
+
+.uxDescription {
+    margin: 20px 0 0 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 60%;
+}
+
+
+.other h1 {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 300px;
+}
+
+.img1 {
+    margin-top: -130px;
+}
+
+.img2 {
+    margin-top: -130px;
+}
+
+.svg {
+    margin-top: -230px;
+}
+
+#other {
+    background: black;
+    height: 500px;
+    margin-top: -250px;
+
+}
+
+.title {
+    margin: -200px 0 0 0;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 200px;
+}
+
+.image1 {
+    display: flex;
+    justify-content: center;
+}
+
+.title1 h1 {
+    margin-top: -70px;
+    padding: 0 613px 0 0;
+}
+
+.svg1 {
+    margin: -400px 0 0 260px;
+    padding: 0 90px 100px 0;
+}
+
+.title1 h3 {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 22px;
+    width: 35%;
+    text-align: center;
+    margin-top: -280px;
+    padding: 0 120px;
+}
+
+.uxLine {
+    position: absolute;
+    margin: -20px 590px;
+}
+
+.design h1 {
+    margin-top: -150px;
+    padding: 15px 0 0 600px;
+}
+
+.design1 svg {
+    position: absolute;
+    margin-top: -25px;
+    padding: 0 0 0 860px;
+}
+
+.design h3 {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: -280px;
+    padding: 0 0 0 770px;
+    width: 35%;
+    text-align: center;
+}
+
+.nameOne {
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+}
+
+.name {
+    margin-top: -170px;
+
+}
+
+.name1 h3 {
+    margin-top: -170px;
+}
+
+.name2 {
+    margin-top: -170px;
+
+}
+
+.more {
+    margin: 100px 600px;
+}
+
+.imgHands {
+    margin-top: -400px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rectangle {
+    margin: 0 -100px;
+}
+
+.rectangleTwo {
+    margin: 0 288px;
+}
+
+#project {
+    width: 90%;
+    background: black;
+    margin-top: 900px;
+}
+
+.project h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 0 200px;
+}
+
+.project svg {
+    margin: 0 520px;
+}
+
+.PortImg {
+    position: absolute;
+    margin: -1050px -650px;
+    padding: 1400px 0 0 0;
+}
+
+.project h3 {
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    width: 39%;
+    margin: -600px 600px;
+}
+
+.portImg {
+    margin: 0 -100px;
+}
+
+.project input {
+    width: 150px;
+    background: #FF0000;
+    border-radius: 51px;
+    height: 47px;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    margin: 650px 0 0 760px;
+}
+
+.advance {
+    margin: 0 0 0 500px;
+}
+
+.work {
+    position: absolute;
+    margin: -700px 0 0 850px;
+}
+
+.pOne {
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    width: 39%;
+    margin-top: -550px;
+}
+
+.pOne input {
+    margin: 40px 0 0 0;
+}
+
+.project button {
+    width: 176px;
+    height: 44px;
+    color: black;
+    font-size: 14px;
+    background: #FFFFFF;
+    border-radius: 27px;
+    margin: 200px 0 0 600px;
+}
+.rectangleOne{
+    margin: -800px 0 0 680px;
+}
+.line{
+    margin: 0 70px;
+}
+.team {
+    margin: 200px 0 0 -20px;
+display: flex;
+}
+.photo{
+    position: absolute;
+    margin: -30px 0 0 190px;
+}
+.team svg {
+    position: absolute;
+    margin: 130px 0 0 160px;
+}
+.btn{
+    margin: 0 0 0 -350px;
+}
+.dot{
+    margin:  10px;
+    width: 15px;
+    height: 15px;
+    background: #EA0202;
+    filter: blur(2px);
+    border-radius: 50%;
+}
+.dotOne{
+    width: 19px;
+    height: 19px;
+    background: #FF0000;
+    border-radius: 50%;
+}
+.dotTwo{
+    margin: 0 10px;
+    width: 15px;
+    height: 15px;
+    background: #EA0202;
+    filter: blur(2px);
+    border-radius: 50%;
+}
+.button{
+    position: absolute;
+    margin: 400px 0 0 650px;
+    text-align: center;
+}
+.gx{
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.065em;
+    width: 176px;
+    height: 44px;
+    color: black;
+    font-size: 14px;
+    background: #FFFFFF;
+    border-radius: 27px;
+    margin: 200px 0 0 590px;
+}
+.Line{
+    margin: 300px 0 0 405px;
+    width: 550px;
+    border: 2px solid #FF0000;
+}
+.footer h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 5px 0 0 5px;
+}
+.sms{
+    width: 370px;
+    height: 75px;
+    background: #FFFFFF;
+    border: 2px solid #FF0000;
+    border-radius: 7px;
+}
+.number{
+    width: 370px;
+    height: 75px;
+    background: #FFFFFF;
+    border: 2px solid #FF0000;
+    border-radius: 7px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 10px 15px;
+}
+.sms{
+    margin: 0 50px 0 -30px;
+}
+.messenger{
+    width: 800px;
+    height: 133px;
+    background: #FFFFFF;
+    border: 2px solid #FF0000;
+    border-radius: 7px;
+    font-size: 15px;
+    margin: 0 265px;
+}
+.textP{
+    color: #FFFFFF;
+    margin: -300px 300px;
+}
+.foot {
+    display: flex;
+    color: #FFFFFF;
+    margin: 280px 700px;
+
+}
+.footer h4{
+    color: #FFFFFF;
+    margin: -155px 290px;
+}
+.check{
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    margin: -470px 340px;
+    padding: 30px 0 0 -100px;
+
+}
+
+.footer button{
+    width: 188px;
+    height: 54px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    font-size: 14px;
+    margin: 370px 270px;
+}
+.imgImage{
+    margin: 600px 0 0 300px;
+}
+
+
+
+
+
+
+
+
